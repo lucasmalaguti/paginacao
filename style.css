@@ -1,0 +1,59 @@
+ /* MEU DEUS DO CEU EU GASTEI MUITO TEMPO FAZENDO ISSO*/ 
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+}
+
+
+ul{
+    /*display:flex --> deixa o indice na horizontal */
+    display:flex;
+    /* Apaga as bolinhas e estilo dos indices */
+    list-style: none;
+    /* deixa  todo mundo no centro horizontal*/
+    padding: 0;
+    /* Espaco entre os elementos do indice*/
+    gap: 0px;
+
+    color: rgb(6, 148, 195);
+    font-family: Helvetica;
+   
+
+}
+
+li{
+    /*dimensao dos quadrados que envolvem o numero*/ 
+    min-width: 30px;
+    min-height: 30px;
+    border: 1px solid lightgray;
+    background-color: white;
+    margin-right: -1px;
+
+    /* Aqui para centralizar o texto bonitinho no centro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li:hover{
+    cursor: pointer;
+    background: lightgray;
+    
+}
+
+.roundDIR {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+.roundESQ{
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+}
+
+
+
+
